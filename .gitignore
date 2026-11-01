@@ -1,0 +1,29 @@
+# Python
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+.env
+.env.*
+
+# Database
+*.db
+*.sqlite
+*.sqlite3
+
+# Node
+node_modules/
+dist/
+
+# Model weights and cache
+*.safetensors
+*.bin
+*.pt
+*.pth
+.cache/
+models/
+
+# Editor and OS
+.vscode/
+.DS_Store
+Thumbs.db
